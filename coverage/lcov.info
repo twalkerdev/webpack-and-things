@@ -1,0 +1,17 @@
+TN:
+SF:src/helpers/add/add.js
+FN:2,addNew
+FN:3,add
+FNF:2
+FNH:1
+FNDA:0,addNew
+FNDA:1,add
+DA:1,1
+DA:2,1
+DA:3,1
+LF:3
+LH:3
+BRDA:3,0,0,1
+BRF:1
+BRH:1
+end_of_record
