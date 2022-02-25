@@ -9,12 +9,6 @@
     "prepare": "husky install",
     "test": "node --experimental-vm-modules node_modules/.bin/jest"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn run test",
-      "commit-msg": "npx --no -- commitlint --edit $1"
-    }
-  },
   "dependencies": {
     "eslint-config-google": "^0.14.0",
     "lodash": "^4.17.21",
@@ -26,6 +20,7 @@
     "@commitlint/config-conventional": "^16.2.1",
     "eslint": "^8.9.0",
     "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
     "jest": "^27.5.1",
     "prettier": "^2.5.1"
